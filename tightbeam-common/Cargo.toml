@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+libskyfall.workspace = true
+serde = {workspace = true, features = ["derive"]}
+tokio = {workspace = true, features = ["full"]}
+taurpc = { workspace = true }
+specta = { workspace = true, features = ["derive", "uuid", "tokio", "chrono", "serde", "serde_json"] }
+specta-typescript = { workspace = true }
+uuid = { version = "1.17.0", features = ["v4", "fast-rng", "serde"] }
+serde_json.workspace = true
+oqs = { version = "0.11.0", features = ["vendored", "serde"] }
+iroh = "0.90.0"

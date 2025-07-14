@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    skyfall_desktop_lib::run()
+    tightbeam_desktop_lib::run()
 }
